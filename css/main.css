@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 0;
+}
+.navbar {
+  color: #fff;
+  color: #fff;
+  background-image: linear-gradient(to right, #34a2ce, rgb(167, 22, 167));
+  padding: 0 !important;
+}
+.navbar-brand img {
+  height: 60px;
+  width: 80px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: azure !important;
+  font-weight: bold;
+  float: right;
+  text-align: left;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+#banner {
+  background-image: linear-gradient(to right, #327f9e, rgb(167, 22, 167));
+  color: #fff;
+  padding-top: 5%;
+}
+.promo-title {
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.res {
+  background: rgb(2, 37, 58);
+  color: rgb(255, 248, 248);
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  margin-top: 2em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1em;
+}
+.play-btn {
+  width: 45px;
+  margin: 20px;
+}
+#banner a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2em;
+}
+.images-fluid {
+  width: 400px;
+  height: 400px;
+}
+.bottom-img {
+  width: 100%;
+}
+.coding {
+  width: 300px;
+  height: 300px;
+}
+#services {
+  padding: 80px 0;
+}
+.objective {
+  text-align: center;
+  font-size: 40px;
+}
+.objective::before {
+  content: "";
+  background: #34a2ce;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.objective::after {
+  content: "";
+  background: #34a2ce;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+.services {
+  padding: 20px;
+}
+.Marketing {
+  width: 300px;
+  height: 300px;
+}
+.writing {
+  width: 350px;
+  height: 310px;
+}
+.dev {
+  margin-left: 1em;
+}
+.writings {
+  margin-left: 2em;
+}
+.online {
+  margin-left: 2em;
+}
+#About-us {
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.vision {
+  height: 400px;
+  width: 400px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.faculty {
+  border-left: 4px solid #327f9e;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.faculty img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+.row {
+  margin-top: 40px;
+}
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.social-icons img {
+  width: 80px;
+  transition: 0.5s;
+}
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+#footer {
+  background-image: linear-gradient(to right, #327f9e, rgb(167, 22, 167));
+  color: #fff;
+}
+.footer-img {
+  width: 100%;
+}
+.footer-box {
+  padding: 20px;
+}
+.footer-box img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+.footer-box .form-control {
+  box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  margin-top: 25px;
+  max-width: 250px;
+}
+.footer-box .btn-primary {
+  box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #327f9e, rgb(167, 22, 167));
+}
+hr {
+  background-color: #fff;
+}
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
